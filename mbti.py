@@ -7,7 +7,6 @@ import platform
 import matplotlib.pyplot as plt
 from PIL import Image
 
-
 def clear():
     """
     귀찮지 않아요 ㅎ
