@@ -1,8 +1,8 @@
 import time
 import os
 import platform
-# import matplotlib.pyplot as plt
-# from PIL import Image
+import matplotlib.pyplot as plt
+from PIL import Image
 
 
 def clear():
@@ -71,45 +71,45 @@ clear()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 
-# if a > b:
-#     print("q결과")
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-# elif b > a:
-#     print("w결과")
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-# else:
-#     print("ㄷ결과")
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
-#     image = Image.open(os.path.join(script_dir, '''이미지'''))
-#     plt.imshow(image)
-#     plt.show()
+if a > b:
+    print("q결과")
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+elif b > a:
+    print("w결과")
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+else:
+    print("ㄷ결과")
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
+    image = Image.open(os.path.join(script_dir, '''이미지'''))
+    plt.imshow(image)
+    plt.show()
