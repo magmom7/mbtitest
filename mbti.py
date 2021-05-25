@@ -1,5 +1,5 @@
 """
-주석을 달래요 ㅎ
+주석과 비슷 하지만 다릅니다.
 """
 import time
 import os
