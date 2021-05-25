@@ -125,7 +125,7 @@ while True:
     else:
 
         print("풀스택")
-        image = Image.open(os.path.join(script_dir, 'C.png'))
+        image = Image.open(os.path.join(script_dir, 'c.png'))
         plt.imshow(image)
         plt.show()
         image = Image.open(os.path.join(script_dir, 'C1.png'))
